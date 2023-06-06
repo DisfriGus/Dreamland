@@ -6,7 +6,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./styles.css";
 import Borobudur from '../Assets/Borobudur.png'
 import GWK from '../Assets/GWK.png'
 import Bromo from '../Assets/Bromo1.png'
@@ -23,9 +22,9 @@ const Slider = () => {
           slidesPerView: 3
         }
       }}
-      slidesPerView={1}
+      slidesPerView={3}
       spaceBetween={30}
-      slidesPerGroup={1}
+      slidesPerGroup={3}
       loop={true}
       loopFillGroupWithBlank={true}
       pagination={{
