@@ -32,13 +32,13 @@ const Home = () => {
   return (
     <div className='bg-white font-popins'>
         <Navbar/>
-        <div className='pt-[184px] sm:mx-[240px] relative'>
-          <div className='flex items-center justify-between'>
+        <div className='sm:pt-[184px] pt-14 sm:mx-[240px] relative'>
+          <div className='flex items-center justify-between max-sm:flex-col-reverse'>
             <div className='sm:w-[700px]'>
-              <h1 className='sm:text-[52px] font-bold sm:w-[500px] mb-[18px] '><span className='font-medium'>Explore</span> the <br className='max-sm:hidden'/>Beauty of Indonesia</h1>
-              <p className='text-[#6A707D] text-[18px] font-medium sm:w-[650px] mb-11'>Discover the beauty of Indonesia coincide with Indonesia independence day, you will feel the unforgettable experience of Indonesia.</p>
-              <div className='flex justify-between mb-16'>
-                <div className='flex items-center gap-3 max-sm:flex-col'>
+              <h1 className='sm:text-[52px] font-bold sm:w-[500px] mb-[18px] max-sm:text-center text-[24px] '><span className='font-medium'>Explore</span> the <br/>Beauty of Indonesia</h1>
+              <p className='text-[#6A707D] text-[18px] font-medium sm:w-[650px] mb-11 max-sm:text-[14px] max-sm:text-center'>Discover the beauty of Indonesia coincide with Indonesia independence day, you will feel the unforgettable experience of Indonesia.</p>
+              <div className='flex justify-between mb-16 max-sm:flex-col max-sm:items-center gap-5'>
+                <div className='flex items-center gap-3'>
                   <div className='text-[32px] w-fit p-3 bg-[#E4E7FF] text-[#4C5EFF] rounded-xl'>
                     <TbApple />
                   </div>
@@ -66,7 +66,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className='flex max-sm:flex-col gap-7'>
+              <div className='flex max-sm:flex-col gap-7 max-sm:items-center'>
                 <button className='flex gap-3 items-center w-fit px-8 py-4 bg-[#FF4C4C] text-white rounded-[32px] text-[16px]'>Start Tour<TbArrowRight/></button>
                 <button className='flex gap-3 items-center w-fit px-8 py-4 rounded-[32px] text-[16px] border-2 border-black'>See References<TbArrowRight/> </button>
               </div>
@@ -93,13 +93,13 @@ const Home = () => {
               <Slider/>
             </div>
           </div>
-          <div className='sm:mt-[72px] flex items-center justify-between sm:pb-[175px]'>
+          <div className='sm:mt-[72px] max-sm:mb-[24px] flex items-center justify-between sm:pb-[175px] max-sm:flex-col'>
             <div className=''>
               <img src={Sapiens} alt="" />
             </div>
             <div className='sm:w-[828px]'>
-              <h1 className='font-bold sm:text-[42px] '>Why Choose Dreamland ?</h1>
-              <p className='text-[#6A707D] font-medium sm:text-[22px] ' >Indonesia has a lot of natural resources that can be utilized and preserved, especially as a place for local and foreign tourists to visit. We can facilitate you by taking you to places that are hidden gems and giving you an experience that will not disappoint.</p>
+              <h1 className='font-bold sm:text-[42px] max-sm:text-center max-sm:text-[20px] mb-8 '>Why Choose Dreamland ?</h1>
+              <p className='text-[#6A707D] font-medium sm:text-[22px] max-sm:text-center max-sm:px-4 ' >Indonesia has a lot of natural resources that can be utilized and preserved, especially as a place for local and foreign tourists to visit. We can facilitate you by taking you to places that are hidden gems and giving you an experience that will not disappoint.</p>
             </div>
           </div>
           <div className='sm:mt-[72px]'>
@@ -107,7 +107,7 @@ const Home = () => {
                 <h1 className='sm:text-[24px] font-bold'>Reading Post</h1>
                 <p className='absolute right-0'>Discover</p>
               </div>
-              <div className='flex items-center gap-4'>
+              <div className='flex items-center gap-4 max-sm:flex-col'>
                 <ReadingCard 
                 images={NTT}
                 name="Pulau Komodo" 

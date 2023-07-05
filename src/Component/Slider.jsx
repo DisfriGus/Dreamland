@@ -18,13 +18,18 @@ const Slider = () => {
     <>
     <Swiper 
       breakpoints={{
+        320:{
+          slidesPerView:1,
+          slidesPerGroup:1,
+          spaceBetween:20    
+        },
         640:{
-          slidesPerView: 3
+          slidesPerGroup:3,
+          slidesPerView:3,
+          spaceBetween:20
         }
       }}
-      slidesPerView={3}
-      spaceBetween={30}
-      slidesPerGroup={3}
+      
       loop={true}
       loopFillGroupWithBlank={true}
       pagination={{
@@ -32,7 +37,7 @@ const Slider = () => {
       }}
       navigation={true}
       modules={[Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiper max-sm:w-[350px]"
     >
       <SwiperSlide>
         <div className='h-[560px] border w-[400px] flex flex-col justify-end' style={{backgroundImage:`url(${Borobudur})`}}>

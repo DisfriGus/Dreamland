@@ -6,21 +6,22 @@ import {BsPerson} from "react-icons/bs"
 const Navbar = () => {
   const [show, setShow] = useState(true)
   const [search, setSearch] = useState(true)
+
   return (
-    <div className='fixed flex items-center justify-between w-full max-md:w-full max-md:justify-center max-md:pt-3 z-10 bg-white md:px-[240px] md:pt-8 '>
-        <h1 className='font-popins text-[24px] font-bold'>Dreamland<span className='text-[#FF4D4D]'>.</span> </h1>
+    <div className='fixed flex items-center justify-between w-full max-md:w-full max-md:justify-center max-md:pt-3 z-10 bg-white md:px-[240px] md:py-8 '>
+        <NavLink to='/' className='font-popins text-[24px] font-bold'>Dreamland<span className='text-[#FF4D4D]'>.</span> </NavLink>
         <button className='md:hidden text-[24px] absolute  right-6' onClick={()=>setShow(!show)}>
           {show ? <TbMenu2/>:<RiCloseLine/>}
         </button>
         {/* Desktop Navbar */}
         <div className='max-md:hidden text-[18px] font-medium flex gap-7 ml-[10%]'>
-            <NavLink to='/Article'>Article</NavLink>
-            <NavLink to='/Destination'>Destination</NavLink>
-            <NavLink to='/YourOrders'>Your Orders</NavLink>
+            <NavLink className={({isActive})=>{return `${isActive ? "border-b-[3px] border-[#ea2129]" : "link"}`}} to='/Article'>Article</NavLink>
+            <NavLink className={({isActive})=>{return `${isActive ? "border-b-[3px] border-[#ea2129]" : "link"}`}} to='/Destination'>Destination</NavLink>
+            <NavLink className={({isActive})=>{return `${isActive ? "border-b-[3px] border-[#ea2129]" : "link"}`}} to='/YourOrders'>Your Orders</NavLink>
         </div>
         {/* Tablet & Phone Navbar */}
-        <div className={`md:hidden text-[18px] font-medium flex flex-col gap-10 pt-4 absolute top-12 duration-200 h-full bg-white z-10 items-center ${show ? 'translate-x-[1000px]':'translate-x-0'}`}>
-            <NavLink to='/Article'>Article</NavLink>
+        <div className={`md:hidden text-[18px] font-medium flex flex-col gap-10 pt-4 absolute top-12 duration-200 bg-white w-full h-[800px] z-20 items-center  ${show ? 'translate-x-[1000px]':'translate-x-0'}`}>
+            <NavLink to='/Article '>Article</NavLink>
             <NavLink to='/Destination'>Destination</NavLink>
             <NavLink to='/YourOrders'>Your Orders</NavLink>
         </div>
