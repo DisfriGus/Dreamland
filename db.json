@@ -9,27 +9,24 @@
     },
     {
       "id": 2,
-      "image": "https://images.unsplash.com/photo-1641258310476-f83cfe76c3b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
-      "title": "Garuda Wisnu Kencana",
+      "image": "https://images.unsplash.com/photo-1604560929658-bbc3c2ba6a36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80",
+      "title": "Pulau Komodo",
       "author": "Dio Irsaputra S",
-      "desc": "Garuda Wisnu Kencana Cultural Park, or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali, Indonesia, about 10–15 minutes drive from Ngurah Rai International Airport."
+      "desc": "Komodo island, part of the Lesser Sunda chain of Indonesian islands, is the rugged habitat of the 3m-long Komodo dragon monitor lizard. Komodo National Park covers the entire region and is home to more than 4,000 dragons."
     },
     {
       "id": 3,
-      "image": "https://images.unsplash.com/photo-1641258310476-f83cfe76c3b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
-      "title": "Garuda Wisnu Kencana",
+      "image": "https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "title": "Raja Ampat",
       "author": "Dio Irsaputra S",
-      "desc": "Garuda Wisnu Kencana Cultural Park, or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali, Indonesia, about 10–15 minutes drive from Ngurah Rai International Airport."
-    }
-  ],
-  "comments": [
+      "desc": "The Raja Ampat Islands are an Indonesian archipelago off the northwest tip of Bird’s Head Peninsula in West Papua. Comprising hundreds of jungle-covered islands, Raja Ampat is known for its beaches and coral reefs rich with marine life."
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "title": "Raja Ampat",
+      "author": "Dio Irsaputra S",
+      "desc": "The Raja Ampat Islands are an Indonesian archipelago off the northwest tip of Bird’s Head Peninsula in West Papua. Comprising hundreds of jungle-covered islands, Raja Ampat is known for its beaches and coral reefs rich with marine life."
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

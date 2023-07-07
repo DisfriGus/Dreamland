@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 const PostArticle = (props) => {
   return (
-    <div className={`${props.style} sm:w-[420px]`}>
+    <NavLink to={props.to} className={`${props.style} sm:w-[420px]`}>
         <div>
             <img src={props.image} alt="" className='sm:w-[448px] sm:h-[340px] object-cover rounded-3xl' />
         </div>
@@ -11,7 +11,7 @@ const PostArticle = (props) => {
             <p className='sm:mb-20 font-medium text-[20px]'>{props.desc}</p>
             <h5 className='font-medium text-[18px]'>{props.author}</h5>
         </div>
-    </div>
+    </NavLink>
   )
 }
 

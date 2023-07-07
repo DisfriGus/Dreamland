@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import Article from './Pages/Article'
 import Destination from './Pages/Destination'
 import YourOrders from './Pages/YourOrders'
+import DetailPage from './Pages/DetailPage'
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/Article" element={<div><Article/></div>}/>
         <Route path="/Destination" element={<div><Destination/></div>}/>
         <Route path="/YourOrders" element={<div><YourOrders/></div>}/>
+        <Route path="/DetailPage/:id" element={<div><DetailPage/></div>}/>  
       </Routes>
     </BrowserRouter>
   )

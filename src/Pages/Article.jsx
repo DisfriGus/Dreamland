@@ -36,10 +36,10 @@ class Article extends Component {
             </div>
             <div className='sm:pt-[100px] text-[24px] font-bold'>
               <h1 className='text-center'>Recently Added Posts</h1>
-              <div className='flex flex-wrap gap-12'>
+              <div className='flex flex-wrap gap-12 justify-between'>
                   {
                     this.state.post.map(post =>{
-                      return <PostArticle key={post.id} title={post.title} desc={post.desc} author={post.author} image={post.image}/>
+                      return <PostArticle key={post.id} title={post.title} desc={post.desc} author={post.author} image={post.image} to={`/DetailPage/${post.id}`}/>
                     })
                   }
               </div>
