@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1641258310476-f83cfe76c3b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+      "title": "Garuda Wisnu Kencana",
+      "author": "Dio Irsaputra S",
+      "desc": "Garuda Wisnu Kencana Cultural Park, or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali, Indonesia, about 10–15 minutes drive from Ngurah Rai International Airport."
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1641258310476-f83cfe76c3b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+      "title": "Garuda Wisnu Kencana",
+      "author": "Dio Irsaputra S",
+      "desc": "Garuda Wisnu Kencana Cultural Park, or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali, Indonesia, about 10–15 minutes drive from Ngurah Rai International Airport."
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1641258310476-f83cfe76c3b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+      "title": "Garuda Wisnu Kencana",
+      "author": "Dio Irsaputra S",
+      "desc": "Garuda Wisnu Kencana Cultural Park, or GWK, is a tourist destination and attraction located at Ungasan, Badung on the island of Bali, Indonesia, about 10–15 minutes drive from Ngurah Rai International Airport."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

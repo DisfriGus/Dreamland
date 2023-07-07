@@ -10,6 +10,7 @@ import Slider from '../Component/Slider'
 import Sapiens from '../Assets/illu-sapiens1.png'
 import ReadingCard from '../Component/ReadingCard'
 import NTT from '../Assets/image_ntt.png'
+import Footer from '../Component/Footer'
 const Home = () => {
   const slides = [
     {url: Borobudur},
@@ -123,6 +124,7 @@ const Home = () => {
               </div>
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }
